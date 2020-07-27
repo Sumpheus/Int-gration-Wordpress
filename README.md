@@ -1,2 +1,2 @@
-# Int-gration-Wordpress
+# Integration-Wordpress
 Maquette de Yoann reprise avec Wordpress
