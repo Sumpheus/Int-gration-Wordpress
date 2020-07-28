@@ -1,0 +1,166 @@
+/*
+  Theme pour imtégration Wordpress
+*/
+
+
+@font-face {
+  font-family: VitruvianMan;
+  src: url("wp-content/themes/Barmytheme/font/VitruvianMan-eW73.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: VitruvianMan, sans-serif;
+  background-color: black;
+}
+
+.h1, h1 {
+  font-size: 5rem;
+}
+
+#head {
+  background-image: url("wp-content/themes/Barmytheme/img/BGheader.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fade {
+  background-image: url("wp-content/themes/Barmytheme/img/fade.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+#navbar {
+  height: 15rem;
+}
+
+#navbar a:hover {
+  background-image: url("wp-content/themes/Barmytheme/img/hovermenu.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+}
+
+@media (max-width:992px) {
+  #navbar a:focus {
+    background-image: url("wp-content/themes/Barmytheme/img/hovermenu.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
+
+#button1 {
+  text-align: center;
+  background-image: url("wp-content/themes/Barmytheme/img/button.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2.5em;
+}
+#button2 {
+  text-align: center;
+  background-image: url("wp-content/themes/Barmytheme/img/button.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2.5em;
+}
+
+#graff {
+  background-image: url("wp-content/themes/Barmytheme/img/grafiti.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+}
+
+#about {
+  background-image: url("wp-content/themes/Barmytheme/img/BGabout.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#abouttxt{
+  padding-left: 5%;
+}
+
+#dbleimg{
+  padding-left: 10%;
+}
+@media (max-width:1200px){
+  #abouttxt{
+    text-align: center;
+  }
+
+}
+
+#articlenope {
+  background-image: url("../img/bgarticle.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width:1200px) {
+  #artrowimg {
+    position: relative;
+  }
+
+  #rowimg {
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+  }
+}
+
+@media (max-width:1200px) {
+  #rowimg {
+    background-image: url("wp-content/themes/Barmytheme/img/BGheader.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+#rowimg img:hover {
+  border: 5px solid #F33A12;
+}
+
+.divimg {
+  max-width: 393px;
+}
+
+footer {
+  background-image: url("wp-content/themes/Barmytheme/img/BGfoot.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#buttonhead{
+  color: black;
+}
+
+#buttonfoot {
+  color: #F33A12;
+  top: 15rem;
+}
+
+#joincrewdiv h1 {
+  color: #F33A12
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#rightsres {
+  bottom: 5%;
+}
+
+#button a:hover{
+  color: #00e6e6;
+  font-size: 210%;
+}
